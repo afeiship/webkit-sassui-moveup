@@ -10,7 +10,7 @@ npm i -S @feizheng/webkit-sassui-moveup
 + https://afeiship.github.io/webkit-sassui-moveup/
 
 ```scss
-@import 'node_modules/webkit-sassui-moveup/dist/index.scss';
+@import '~@feizheng/webkit-sassui-moveup';
 ```
 
 ## resources
