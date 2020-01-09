@@ -1,0 +1,24 @@
+@import "../dist/index.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: url(https://img.alicdn.com/tps/TB1h9xxIFXXXXbKXXXXXXXXXXXX.jpg) no-repeat;
+  background-size: cover;
+}
+
+.webkit-sassui-moveup {
+  width: 400px;
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

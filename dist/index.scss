@@ -1,0 +1,18 @@
+/*webkit-sassui-moveup Start*/
+$webkit-sassui-moveup-options: (
+  duration: 0.4s,
+  translate-y: -5px
+) !default;
+
+.webkit-sassui-moveup {
+  /* prettier-ignore */
+  $duration: map-get( $map: $webkit-sassui-moveup-options, $key: duration );
+  $translate-y: map-get( $map: $webkit-sassui-moveup-options, $key: translate-y );
+  /* prettier-ignore-end */
+  transition: all $duration;
+  position: absolute;
+  &:hover {
+    transform: translateY($translate-y);
+  }
+}
+/*webkit-sassui-moveup End*/
