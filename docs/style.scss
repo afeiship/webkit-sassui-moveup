@@ -1,4 +1,4 @@
-@import "../dist/index.scss";
+@import "../src/index.scss";
 
 html,
 body {
@@ -9,7 +9,7 @@ body {
   background-size: cover;
 }
 
-.webkit-sassui-moveup {
+.wsui-moveup {
   width: 400px;
   height: 400px;
   top: 0;

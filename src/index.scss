@@ -1,13 +1,13 @@
-/*webkit-sassui-moveup Start*/
-$webkit-sassui-moveup-options: (
+/*wsui-moveup Start*/
+$wsui-moveup-options: (
   duration: 0.4s,
   translate-y: -5px
 ) !default;
 
-.webkit-sassui-moveup {
+.wsui-moveup {
   /* prettier-ignore */
-  $duration: map-get( $map: $webkit-sassui-moveup-options, $key: duration );
-  $translate-y: map-get( $map: $webkit-sassui-moveup-options, $key: translate-y );
+  $duration: map-get( $map: $wsui-moveup-options, $key: duration );
+  $translate-y: map-get( $map: $wsui-moveup-options, $key: translate-y );
   /* prettier-ignore-end */
   transition: all $duration;
   position: absolute;
@@ -15,4 +15,4 @@ $webkit-sassui-moveup-options: (
     transform: translateY($translate-y);
   }
 }
-/*webkit-sassui-moveup End*/
+/*wsui-moveup End*/

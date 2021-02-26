@@ -1,16 +1,16 @@
-/*webkit-sassui-moveup Start*/
-.webkit-sassui-moveup {
+/*wsui-moveup Start*/
+.wsui-moveup {
   /* prettier-ignore */
   /* prettier-ignore-end */
   transition: all 0.4s;
   position: absolute;
 }
 
-.webkit-sassui-moveup:hover {
+.wsui-moveup:hover {
   transform: translateY(-5px);
 }
 
-/*webkit-sassui-moveup End*/
+/*wsui-moveup End*/
 html,
 body {
   height: 100%;
@@ -21,8 +21,7 @@ body {
   background-size: cover;
 }
 
-.webkit-sassui-moveup {
-  border: 1px solid red;
+.wsui-moveup {
   width: 400px;
   height: 400px;
   top: 0;
@@ -32,7 +31,7 @@ body {
   margin: auto;
 }
 
-.webkit-sassui-moveup img {
+.wsui-moveup img {
   width: 100%;
   height: 100%;
 }
