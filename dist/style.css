@@ -3,8 +3,16 @@
  * description: Move up with animate.
  * homepage: https://github.com/afeiship/wsui-moveup
  * version: 1.0.0
- * date: 2020-12-23 15:01:37
+ * date: 2021-02-26 22:20:36
  * license: MIT
  */
 /*wsui-moveup Start*/
+.wsui-moveup {
+  /* prettier-ignore */
+  /* prettier-ignore-end */
+  transition: all 0.4s;
+  position: absolute; }
+  .wsui-moveup:hover {
+    transform: translateY(-5px); }
+
 /*wsui-moveup End*/
